@@ -1,9 +1,9 @@
 # Grayscale
 
-This code helps convert colored images (or part of) to grayscale images and change brightness level and image formats at the same time.
+This code helps convert colored images (or part of) to grayscale images, change brightness level and image formats at the same time.
 The goal of this code, is to make it as eazy as possible to use *(see last readme paragraph)*.
 
-
+<img src="https://github.com/the-kim-jong-un/Grayscale/blob/master/data/planet.jpg" width="600" height="400">
 
 ### How to use
 
