@@ -1,14 +1,16 @@
 # Grayscale
 
-This code helps convert a colored images (or part of an image) to a grayscale image.
+This code helps convert colored images (or part of) to grayscale images and change brightness level and image formats at the same time.
+The goal of this code, is to make it as eazy as possible to use *(see last readme paragraph)*.
+
 
 
 ### How to use
 
  * in src/main.cpp, call : Convert::grayscaleImage(loadPath, downloadPath, minX, maxX, minY, maxY, level);
  * Change paths and values
- * go to root, type make in console
- * then type ./bin/main
+ * go to root, in console type *make* then type *./bin/main*
+ 
  
  
  ### Quick comments
@@ -26,9 +28,12 @@ This code helps convert a colored images (or part of an image) to a grayscale im
 **image format** bmp, png, tga, jpg, gif, psd, hdr and pic are supported image format. Moreover we can for example load a .jpg image and download a .png grayscale version of itself.
 
 
+
 ### Dependencies 
 This code uses SFML library. To download :
 https://www.sfml-dev.org/tutorials/2.5/start-linux.php
+
+
 
 ### Why have I coded something like that when there is better software elsewhere
 A friend of mine with no programming experience needed something extremely eazy to use, so that he could convert hundreds of images to grayscale values. 
